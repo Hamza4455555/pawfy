@@ -1,2810 +1,731 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+<!DOCTYPE html>
+<html lang="en">
 
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="3890936_buy_cart_market_purchase_shop_icon.png" type="image/x-icon">
 
-.image {
 
-    background-image: url("https://cdn.shopify.com/s/files/1/0506/0424/5166/files/hero-mask.jpg?irclickid=UaezfCRlZxyPTFJwyvTSg26xUkHwQS3oqz8S000&irgwc=1&partner=123201&affpt=excluded&utm_channel=affiliates&utm_source=123201-impact&utm_medium=cpa");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 100%;
-    height: 760px;
+</head>
 
-}
+<body>
 
-.main {
+    <div class="image">
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
-    padding-top: 30px;
-}
 
-.logo {
+        <div class="main" id="main">
+            <h1 class="logo">Pawfy</h1>
 
-    padding-left: 50px;
-    padding-bottom: 20PX;
-    font-family: sans-serif;
-    font-size: 40px;
-}
+            <ul class="Heading">
+                <li class="text1">SHOP</li>
+                <li class="text2">REVIEWS</li>
+                <li class="text3">FAQ</li>
+                <li class="text4">OUR STORE</li>
+                <li class="text5">CONTACT US</li>
+                <li class="text6">MY SUBSCRIPTIONS</li>
+            </ul>
 
-.Heading {
+            <div class="icons-div2">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
 
-    display: flex;
-    align-items: center;
-    gap: 46px;
-    list-style: none;
-    font-size: 18px;
-    font-family: 'Roboto', sans-serif;
-    color: black;
-}
+        </div>
 
-.icons-div2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
+        <div class="banner">
 
-.fa-bars {
-    display: none;
-}
+            <h1 class="banner-text">Better Pet <br>
+                Nutrition.</h1>
 
-.fa-bag-shopping {
+            <p class="para">Reward your pup with leading, locally-made <br> nutrition backed by science. All in one
+                tasty
+                <br> chew.
+            </p>
+        </div>
 
-    padding-right: 40px;
-    font-size: 20px;
-    cursor: pointer;
-}
+        <div class="button-div">
 
-.fa-bag-shopping:hover {
+
+            <button class="button1">SHOP NOW</button>
+            <button class="button2">QUIZ</button>
 
-    color: white;
-}
+
+        </div>
 
-.text1,
-.text2,
-.text3,
-.text4,
-.text5,
-.text6 {
+    </div>
+
+
+    <div class="icon-text">
 
-    cursor: pointer;
-}
+
+
+        <ul class="icon-text2">
+            <li><img class="icon-img-1"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/homepage-icon-3-1.svg?v=1691656755"
+                    alt=""><br><span>
+                    Made in USA</span></li>
+            <li> <img class="icon-img-1"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/homepage-icon-1-1.svg?v=1691656755"
+                    alt=""><br><span>
+                    Free Shipping</span></li>
+            <li><img class="icon-img-1"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/homepage-icon-2-1.svg?v=1691656755"
+                    alt=""><br><span>
+                    30 Day Guarantee</span></li>
+            <li> <img class="icon-img-1"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/homepage-icon-4-1.svg?v=1691656755"
+                    alt=""><br><span>
+                    Vet Formulated</span></li>
+        </ul>
+
+
+    </div>
+
+    <h1 class="products-heading">Best Sellers</h1>
+    <div class="products-div">
+
+        <div class="product1">
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/probiotic.png?irclickid=UaezfCRlZxyPTFJwyvTSg26xUkHwZfScqz8S000&irgwc=1&partner=123201&affpt=excluded&utm_channel=affiliates&utm_source=123201-impact&utm_medium=cpa"
+                alt="">
+            <h2 class="product1-text">Probiotic</h2>
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+        <div class="product1">
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/multivitamin-cover.png?v=1658313905" alt="">
+            <h2 class="product1-text">Multivitamin</h2>
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+        <div class="product1">
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/shop-allergy_x490.png?v=1680189123" alt="">
+            <h2 class="product1-text"> Allergy Relief</h2>
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+        <div class="product1">
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/pairelief.png?v=20" alt="">
+            <h2 class="product1-text">Pain Relief</h2>
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+        <div class="product1">
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/probiotic.png?irclickid=UaezfCRlZxyPTFJwyvTSg26xUkHwZfScqz8S000&irgwc=1&partner=123201&affpt=excluded&utm_channel=affiliates&utm_source=123201-impact&utm_medium=cpa"
+                alt="">
+            <h2 class="product1-text">Probiotic</h2>
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+
+        <div class="product2">
+
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/hipjoint.png?v=20" alt="">
+            <h2 class="product2-text">Skin & Coat</h2>
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+
+        <div class="product3">
+
+
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/t/1/assets/skincoat.png?v=20" alt="">
+            <h2 class="product3-text">Hip & Joint</h2>
+
+
+            <div class="price-button-div">
+
+                <button class="product-button">
+                    <img class="product-button-icon"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
+
+                <span>
+                    <p class="price-text">From</p>
+                    <h1 class="product-price">$20.00</h1>
+                </span>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="button-view-all-div">
+        <button class="button-view-all">VIEW ALL</button>
+    </div>
+
+    <div class="main-images">
+
+
+
+        <div class="img-btn-banner-text-div">
+            <div class="banner-text-btn-div">
+                <div class="banner-main2">
+                    <h2 class="banner-text2">What Are <span class="banner-text3">Pawfy Chews?</span></h2>
+
+                    <p class="para">Our treats are as tasty as they look, but what’s inside is even more impressive.
+                        Backed by real science, they include essential and beneficial ingredients that are proven to
+                        help.</p>
+
+                    <p class="para"> We’ve created a range of formulas targeting common problems, to help deliver the
+                        right nutrients
+                        where they are needed most.</p>
+
+                    <p class="para">All of our products are vet-recommended and loved by the 500,000+ dogs that we’ve
+                        helped.</p>
+                </div>
+                <button class="btn-banner2"> SHOP NOW</button>
+            </div>
+
+            <img class="img-banner2"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/what-are-chews.png?v=1691656755" alt="">
+        </div>
+
+    </div>
+
+
+    <div class="banner2-background-img">
+        <div class="banner2-text-set-div">
+            <div class="banner2-text">
+                <span class="text-heading-top">
+                    <h1 class="text-heading-top">Did You Know?</h1>
+                </span>
+                <p>YOUR DOG'S DIET & NUTRITION IMPACTS:</p>
+            </div>
+        </div>
+
+        <div class="img-text-icon-div">
+
+            <div class="img-text-icon">
+                <img class="img-icon"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/did-you-know-title-bone.svg?v=1691656755"
+                    alt="">
+                <h3 class="text-icon1">LIFE EXPECTANCY <br> BY UP TO</h3>
+                <h2 class="text-icon2">15%</h2>
+            </div>
+
+            <div class="img-text-icon2">
+                <img class="img-icon"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/did-you-know-title-bone.svg?v=1691656755"
+                    alt="">
+                <h3 class="text-icon3">QUALITY <br>OF THEIR</h3>
+                <h2 class="text-icon4">Life</h2>
+            </div>
+
+            <div class="img-text-icon3">
+                <img class="img-icon"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/did-you-know-title-bone.svg?v=1691656755"
+                    alt="">
+                <h3 class="text-icon5">VET BILLS <br> OVER THEIR</h3>
+                <h2 class="text-icon6">Lifetime</h2>
+            </div>
+        </div>
+
+        <div class="img-banner-background">
+            <img class="banner-img-text3"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/did-you-know-image.png?irclickid=UaezfCRlZxyPTFJwyvTSg26xUkH10UUGG10Hxs0&irgwc=1&partner=123201&affpt=excluded&utm_channel=affiliates&utm_source=123201-impact&utm_medium=cpa"
+                alt="">
+
+            <div class="text-banner-img-main-div">
+                <div class="text-banner-img">
+                    <p class="para-banner"> DOGS HELP IMPROVE OUR LIFE IN SO MANY WAYS,<br> IT'S TIME WE RETURN THE
+                        FAVOR.</p>
+                    <h3 class="banner3-text">That's why <span class="banner3-text-span">1 in 3 dog owners</span> give
+                        their <br> best friends the extra nutrition they need <br> to power through life and protect
+                        them.</h3>
+                    <button class="text-banner-img-button">SHOP NOW</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h2 class="heading3">Why Pawfy?</h2>
+
+    <div class="main-div-img-icon">
+        <div class="main-banner-icon-text">
+
+            <div class="main-banner-icon-text1">
+                <div class="icon-img-text">
+
+                    <div class="icon-img-text2">
+                        <span class="icon-img-tex-heading"><img
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/icon-reports.svg" alt="">
+                            <h3 class="icon-img-heading">Lab<span class="icon-img-heading-color">rador</span> Reports
+                            </h3>
+                        </span>
+                        <p class="icon-img-para">You need to know what’s in a supplement and why. Our ingredients are
+                            hand-
+                            <br>selected and make their way into a supplement for a clear reason. Our clear <br> Lab
+                            Reports
+                            give you the low down.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="icon-img-text">
+
+                    <div class="icon-img-text2">
+                        <span class="icon-img-tex-heading"><img
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/icon-quality.svg" alt="">
+                            <h3 class="icon-img-heading">Quality & Trust</h3>
+                        </span>
+                        <p class="icon-img-para">Give your pup only the best. We know how important your fur baby is.
+                            <br> We only develop supplements we’d happily give to our own pet using high- <br> quality
+                            ingredients.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="icon-img-text">
+
+                    <div class="icon-img-text2">
+                        <span class="icon-img-tex-heading"><img
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/icon-innovation.svg" alt="">
+                            <h3 class="icon-img-heading">Innovation & Research</h3>
+                        </span>
+                        <p class="icon-img-para">We take a fresh approach to pet health. We get to know the problem so
+                            that
+                            <br> we can create a tasty, health-boosting, wag-tastic supplement. Our approach <br> sets
+                            us
+                            apart.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <img class="icon-text-banner"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/why-pawfy-dalmatian.png?v=1696597397"
+                alt="">
+        </div>
+    </div>
+
+
+    <div class="review-main-div">
+
+        <h2 class="happy-customer-heading">Customer <span class="happy-customer-heading2">Reviews</span></h2>
+
+
+        <div class="review-main-div2">
+
+            <div class="customer-text1">
+                <span class="happy-customer-name">Rita.O</span>
+                <img class="star-img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/stars5.svg" alt="">
+                <p class="customer-text">Lorem ipsum dolor, sit amet consectetur elit. <br> Odio iure
+                    delectus ut amet tempora quis laborum voluptatibus alias,<br> eligendi dolores unde, expedita quae
+                    ea! <br> Tempore adipisci quod eum cum minus.</p>
+
+            </div>
+
+            <div class="customer-text2">
+                <span class="happy-customer-name">Rita.O</span>
+                <img class="star-img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/stars5.svg" alt="">
+                <p class="customer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio iure
+                    delectus ut amet tempora quis laborum voluptatibus alias eligendi dolores unde, expedita quae
+                    ea! Tempore adipisci quod eum cum minus.</p>
+
+            </div>
+
 
-.text1:hover {
+            <div class="customer-text3">
+                <span class="happy-customer-name">Rita.O</span>
+                <img class="star-img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/stars5.svg" alt="">
+                <p class="customer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
-    color: white;
-}
+            </div>
 
-.text2:hover {
+        </div>
 
-    color: white;
-}
 
-.text3:hover {
+        <div class="review-main-div2">
 
-    color: white;
-}
 
-.text4:hover {
+            <div class="customer-text4">
+                <span class="happy-customer-name">Rita.O</span>
+                <img class="star-img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/stars5.svg" alt="">
+                <p class="customer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> eligendi dolores
+                    unde, expedita quae ea! <br> Tempore adipisci quod eum cum minus.</p>
 
-    color: white;
-}
+            </div>
 
-.text5:hover {
 
-    color: white;
-}
+            <div class="customer-text5">
+                <span class="happy-customer-name">Rita.O</span>
+                <img class="star-img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/stars5.svg" alt="">
+                <p class="customer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Odio iure
+                    delectus
+                    ut amet tempora quis laborum voluptatibus alias,<br> eligendi dolores unde, expedita quae ea! <br>
+                    Tempore adipisci quod eum cum minus.</p>
 
-.text6:hover {
-    color: white;
+            </div>
 
-}
 
-.banner {
+            <div class="customer-text6">
+                <span class="happy-customer-name">Rita.O</span>
+                <img class="star-img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/stars5.svg" alt="">
+                <p class="customer-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Odio iure
+                    delectus
+                    ut amet tempora quis laborum voluptatibus alias,</p>
 
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-top: 40px;
-}
+            </div>
 
-.banner-text {
-    font-size: 72px;
-}
+        </div>
 
-.para {
 
-    padding-top: 10px;
-    font-family: sans-serif;
-    font-size: 18px;
-    line-height: 30px;
+        <div class="customer-last-para-div">
+            <h4 class="customer-para1">PAWFY PROMISE</h4> <br>
+            <h3 class="customer-para2">If you or your pup aren't satisfied for any reason,</h3>
+            <h2 class="customer-para2">we'll offer a <span class="customer-text-para3">full refund</span> within 30
+                days.</h3>
 
-}
+        </div>
+    </div>
 
-.button-div {
 
-    display: flex;
-    gap: 10px;
-    padding-left: 50px;
-    padding-top: 20px;
-    transition: 0.2s;
-}
+</div>
+<h2 class="products-headings">Bundled Nutrition,<br>
+    Better Savings</h2>
+<p class="products-paras">Double up your best friend's nutrition and save by choosing our recommended duos below.
+</p>
 
+<div class="product-main-div">
+    
+        <div class="product1">
 
-.button1 {
+            <div class="sale-img-prodcut">
+                <img class="products-image"
+                    src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/dou-senior.png" alt="">
 
-    width: 230px;
-    height: 60px;
-    cursor: pointer;
-    border-radius: 40px;
-    font-size: 19px;
-    font-family: sans-serif;
-    background-color: white;
+                <div class="sale-tag">50% OFF</div>
 
-}
+            </div>
+            <h2 class="product1-text">Senior Care</h2>
+            <p class="product1-para1">Pain relief from ageing hips & joints.</p>
+            <div class="price-button-div-last">
 
-.button1:hover {
+                <button class="product-button-last">
+                    <img class="product-button-icon-last"
+                        src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                        <h1 class="product-button-text">ADD TO CART</h1>
+                    </span>
+                </button>
 
-    background-color: blueviolet;
-    color: white;
+                <div class="button-price-sale">
 
-}
+                    <s class="product-price-sale-last">$80.00</s>
+                    <h1 class="product-price-last">$70.00</h1>
+                </div>
 
-.button2 {
-    width: 180px;
-    height: 60px;
-    cursor: pointer;
-    border-radius: 40px;
-    font-size: 19px;
-    font-family: sans-serif;
-    background-color: transparent;
-}
+            </div>
 
-.button2:hover {
+        </div>
 
-    background-color: blueviolet;
-    color: white;
+    
 
-}
+    <div class="product2">
 
-.icon-text {
+        <div class="sale-img-prodcut">
 
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
+            <img class="products-image" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/dou-allergy.png"
+                alt="">
 
-.icon-text2 {
+            <div class="sale-tag">50% OFF</div>
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 150px;
-    list-style: none;
-    padding: 30px;
-    padding-top: 40px;
+        </div>
 
-}
 
+        <h2 class="product2-text">Allergy Duo</h2>
+        <p class="product-para2">Protection from itching and allergies.</p>
+        <div class="price-button-div-last">
 
-.products-div {
+            <button class="product-button-last">
+                <img class="product-button-icon-last"
+                    src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                    <h1 class="product-button-text">ADD TO CART</h1>
+                </span>
+            </button>
 
-    font-size: 36px;
-    font-family: serif;
-    display: flex;
-    align-items: center;
-    overflow: auto;
-    gap: 170px;
-    margin: 20px;
-    scroll-snap-type: x mandatory;
-    padding-right: 40px;
+            <div class="button-price-sale">
 
-}
+                <s class="product-price-sale-last">$80.00</s>
+                <h1 class="product-price-last">$70.00</h1>
+            </div>
 
-::-webkit-scrollbar {
-    width: 0;
-}
+        </div>
 
-.products-heading {
+    </div>
 
-    font-family: serif;
-    font-size: 54px;
-    text-align: center;
-}
 
-.sale-img-prodcut {
 
-    /* border: 1px solid black; */
-    width: max-content;
-    position: relative;
-}
+    <div class="product3">
 
-.sale-tag {
-    min-height: 20px;
-    width: 80px;
-    background-color: red;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-family: sans-serif;
-    font-size: 18px;
-}
+        <div class="sale-img-prodcut">
 
+            <img class="products-image"
+                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/dou-complete.png" alt="">
 
+            <div class="sale-tag">50% OFF</div>
 
+        </div>
 
-.product1,
-.product2,
-.product3 {
+        <h2 class="product3-text">Complete Care</h2>
+        <p class="product-para3">Stronger joints and a lustrous coat.</p>
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    padding-left: 50px;
-    font-size: 24px;
-    font-family: serif;
-    scroll-snap-align: center;
 
+        <div class="price-button-div-last">
 
-}
+            <button class="product-button-last">
+                <img class="product-button-icon-last"
+                    src="https://cdn.shopify.com/s/files/1/0533/0970/2320/files/arrow-blue.svg" alt=""><span>
+                    <h1 class="product-button-text">ADD TO CART</h1>
+                </span>
+            </button>
 
+            <div class="button-price-sale">
 
-.products-image {
+                <s class="product-price-sale-last">$80.00</s>
+                <h1 class="product-price-last">$70.00</h1>
+            </div>
 
-    width: 300px;
-    height: 300px;
-    margin-bottom: 20px;
-}
+        </div>
 
-.product1-,
-.product2-text,
-.product3-text,
-.product3-text {
-    margin-bottom: 15px;
-}
+    </div>
 
-.product1-para1,
-.product-para2,
-.product-para3 {
-    margin-bottom: 15px;
-}
 
-.product-button {
+</div>
 
-    width: 165px;
-    height: 50px;
-    cursor: pointer;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-style: none;
-}
 
-.product-button:hover {
 
-    background-color: #D1D9EC;
-    color: white;
-}
+<div class="img-icpn-text-heading-main-div">
 
-.product-button-icon {
-    width: 18px;
-}
+    <div class="img-icpn-text-heading">
 
-.product-button-text {
+        <!-- <div class="background-color-div"> -->
 
-    font-size: 13px;
-    font-family: sans-serif;
-    padding-left: 7px;
-}
 
-.price-button-div {
+            <div class="main-img-icon-div">
+                <div class="leftContent">
+                    <h2 class="img-icon-heading-text">Subscribe and Save <br>
+                        Benefits</h2>
 
-    display: flex;
-    gap: 50px;
-}
 
+                    <div class="icons">
+                        <div class="img-icon1">
+                            <img class="icon-section-img1"
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/snss-icon-1.svg?v=1691656755"
+                                alt="">
+                            <p>Up To 30% OFF</p>
+                        </div>
 
+                        <div class="img-icon2">
 
-.price-text {
+                            <img class="icon-section-img2"
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/snss-icon-2.svg?v=1691656755"
+                                alt="">
+                            <p>Free Shipping</p>
+                        </div>
 
-    font-size: 13px;
-    padding-left: 27px;
-}
+                        <div class="img-icon3">
+                            <img class="icon-section-img3"
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/snss-icon-3.svg?v=1691656755"
+                                alt="">
+                            <p>No Commitments</p>
+                        </div>
 
-.product-price {
-    font-size: 20px;
-    font-family: sans-serif;
-}
+                        <div class="img-icon4">
+                            <img class="icon-section-img4"
+                                src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/snss-icon-4.svg?v=1691656755"
+                                alt="">
+                            <p>Priority Support</p>
 
-.button-view-all-div {
+                        </div>
+                    </div>
+                </div>
 
-    display: flex;
-    justify-content: center;
-    padding-top: 30px;
-}
+                <img class="banner-text-icon2" src="https://pawfy.com/cdn/shop/files/sns-benefits.png?v=1696597396"
+                    alt="">
+            </div>
 
-.button-view-all {
 
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
-    border-radius: 30px;
-    background-color: transparent;
-    cursor: pointer;
+        <!-- </div> -->
 
-}
+    </div>
 
-.button-view-all:hover {
+</div>
 
-    background-color: #20254A;
-    color: white;
-}
 
+<div class="footerMain">
+    <div class="footertitleInput">
+        <h3 class="footerTitle">
+            Get 10% Off your first order
+        </h3>
+        <div class="footerEmailAndBtn">
+            <input class="footerInput" type="text" placeholder="Enter your email">
+            <button class="footerInputButton">Submit</button>
+        </div>
+    </div>
+    <div class="footerul">
+        <div class="footerUlDiv1">
+            <img src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/left-dog.svg?v=1700648225" alt="">
+            <ul class="footerUlDiv1text">
+                <li>Shop</li>
+                <li class="faqtext">FAQ</li>
+                <li>Contact Us</li>
+                <li>Review</li>
+                <li>Our Story</li>
+                <li class="lastultext">My Subscriptions</li>
+            </ul>
+        </div>
+        <div class="footerUlDiv2">
+            <ul class="footerUlDiv2img">
+                <li>care@pawfy.com</li>
+                <li>press@pawfy.com</li>
+            </ul>
+        </div>
+        <div class="footerUlDiv3">
+            <img class="footerUlDiv3img" src="https://cdn.shopify.com/s/files/1/0506/0424/5166/files/right-dog.svg?v=1700648225" alt="">
+        </div>
+    </div>
+    <div class="footerPolicies">
+        <div class="footerPoliciesDiv1">
+            <ul class="footerPoliciesDiv1Ul">
+                <a href=""><li>Privacy Policy</li></a>
+                <a href=""><li>Terms & Consitions</li></a>
+            </ul>
+        </div>
+        <div class="footerPoliciesDiv2">
+            <p class="footerPoliciesDiv2Para">Copyright © Pawfy. All rights reserved.</p>
+        </div>
+        <div class="footerPoliciesDiv3">
+            <p class="footerPoliciesDiv3Para">Pawfy Inc. Raleigh, NC, USA.</p>
+        </div>
+    </div>
+</div>
 
+</body>
 
-/* banner section 2 */
 
+<script>
+    let sticky = document.getElementById("main");
+    let banner = document.querySelector(".banner");
+    let height = sticky.offsetHeight;
+    window.addEventListener("scroll", () => {
+      if (scrollY > 0) {
+        sticky.style.padding = "10px 20px";
+        sticky.style.backgroundColor = "#BF8DFF";
+      }else{
+          
+          sticky.style.padding = "";
+          sticky.style.backgroundColor = "transparent";
+              }
+    }) 
+    banner.style.paddingTop = (height+20) + "px";
+  </script>
 
-.main-images {
-
-    background-image: url("https://pawfy.com/cdn/shop/files/what-are-bg-1.svg?v=1691659263");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-
-.banner-text-btn-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding-left: 20px;
-    margin: 40px;
-}
-
-.img-btn-banner-text-div {
-    display: flex;
-
-
-}
-
-.banner-main2 {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 20px;
-}
-
-.btn-banner2 {
-    width: 255px;
-    height: 64px;
-    border-radius: 50px;
-    font-size: 18px;
-    font-family: sans-serif;
-    background-color: white;
-
-}
-
-.btn-banner2:hover {
-    background-color: #20254A;
-    color: white;
-}
-
-.img-banner2 {
-    width: 43%;
-}
-
-.banner-text2 {
-    font-size: 54px;
-    font-family: serif;
-    margin-bottom: 20px;
-}
-
-.banner-text3 {
-    background-image: url("https://pawfy.com/cdn/shop/files/what-are-title-bg-1.svg?v=1691660004");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.para {
-    font-size: 18px;
-    font-family: sans-serif;
-    line-height: 30px;
-    margin-bottom: 20px;
-}
-
-.banner2-background-img {
-
-    background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-bordered-arnone-1_70ca463c-24f1-4a38-a6f8-cdf43191c73b.svg?v=1697182456");
-    background-repeat: no-repeat;
-
-}
-
-.banner2-text-set-div {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-top: 70px;
-}
-
-.banner2-text {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-title-bg.svg?v=1691656755");
-    background-repeat: no-repeat;
-    width: 450px;
-    font-size: 20px;
-    font-family: sans-serif;
-    /* height: 1000px; */
-    gap: 20px;
-}
-
-.img-text-icon-div {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 50px;
-    /* min-width: 100%; */
-    padding-top: 40px;
-    /* padding-bottom: 130px; */
-
-
-
-}
-
-.img-text-icon {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-    background-repeat: no-repeat;
-    min-width: 19%;
-    height: 400px;
-}
-
-.img-text-icon2 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-2.svg?v=1691656755");
-    background-repeat: no-repeat;
-    min-width: 19%;
-
-}
-
-.img-text-icon3 {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-3.svg?v=1691656755");
-    background-repeat: no-repeat;
-    min-width: 19%;
-}
-
-.img-icon {
-
-    width: 80px;
-}
-
-.text-icon1,
-.text-icon3,
-.text-icon5 {
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-.text-icon2,
-.text-icon4,
-.text-icon6 {
-
-    font-size: 60px;
-    font-family: sans-serif;
-    color: #58BEF5;
-}
-
-.text-heading-top {
-
-    font-size: 43px;
-    font-family: sans-serif;
-}
-
-.img-banner-background {
-    display: flex;
-}
-
-.text-banner-img {
-
-    display: flex;
-    flex-direction: column;
-}
-
-.text-banner-img-main-div {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.banner-img-text3 {
-    width: 700px;
-}
-
-.para-banner {
-
-    font-family: sans-serif;
-    font-size: 18px;
-    padding-bottom: 30px;
-    line-height: 30px;
-
-}
-
-.banner3-text {
-    font-family: serif;
-    font-size: 36px;
-    padding-bottom: 30px;
-    line-height: 50px;
-}
-
-.banner3-text-span {
-    color: #58BEF5;
-}
-
-.text-banner-img-button {
-
-    width: 200px;
-    height: 60px;
-    font-size: 20px;
-    border-radius: 30px;
-    background-color: white;
-
-}
-
-.text-banner-img-button:hover {
-
-    background-color: #20254A;
-    color: white;
-}
-
-.heading3 {
-    text-align: center;
-    font-family: serif;
-    font-size: 54px;
-    padding-top: 20px;
-
-}
-
-.main-div-img-icon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 80px;
-}
-
-.main-banner-icon-text {
-    display: flex;
-
-}
-
-.main-banner-icon-text1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.icon-img-tex-heading {
-    display: flex;
-    gap: 20px;
-}
-
-.icon-img-text {
-
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding-left: 50px;
-}
-
-.icon-img-text2 {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    /* padding-left: 70px; */
-}
-
-.icon-img-heading {
-
-    font-size: 36px;
-    font-family: serif;
-}
-
-.icon-img-heading-color {
-    color: #A6D0E8;
-}
-
-.icon-img-para {
-    font-size: 16px;
-    font-family: sans-serif;
-    line-height: 26px;
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.icon-text-banner {
-
-    max-width: 50%;
-    /* height: 520px; */
-    padding-left: 90px;
-}
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 375px) {
-
-
-
-    .image {
-        width: 100%;
-        height: 600px;
-        background-position: center;
-        background-size: cover;
-    }
-
-
-    .Heading,
-    .button2 {
-        display: none;
-    }
-
-    .logo {
-        padding: 0;
-
-    }
-
-    .fa-bag-shopping {
-        padding: 0;
-    }
-
-    .main {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 70px;
-        padding: 20px;
-    }
-
-    .logo {
-        font-size: 30px;
-    }
-
-
-    .fa-bars {
-        display: block;
-
-    }
-
-    .banner-text {
-        font-size: 45px;
-    }
-
-    .para {
-        font-size: 20px;
-
-    }
-
-    .button-div {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .button1 {
-        width: 180px;
-        height: 50px;
-    }
-
-
-
-    .banner {
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 322px;
-    }
-
-    .para {
-        text-align: center;
-    }
-
-    .icon-text {
-        font-size: 12px;
-        font-family: sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-    }
-
-    .icon-img-1 {
-        width: 95px;
-    }
-
-    .icon-text2 {
-        display: flex;
-        gap: 20px;
-        padding: 0;
-    }
-
-    span {
-        font-size: 15px;
-    }
-
-    .products-heading {
-        font-size: 40px;
-        font-family: serif;
-        margin-top: 20px;
-    }
-
-    .products-div {
-        display: flex;
-        overflow: auto;
-        gap: 50px;
-        padding: 0;
-        scroll-snap-type: x mandatory;
-        margin: 0;
-
-    }
-
-    .products-image {
-        width: auto;
-        /* height: auto; */
-    }
-
-    .price-button-div {
-        display: flex;
-        /* flex-direction: column; */
-        align-items: center;
-        gap: 24px;
-    }
-
-    .product1,
-    .product2,
-    .product3 {
-        padding: 0;
-    }
-
-    .product1 {
-        padding-left: 15px;
-
-    }
-
-    .product3 {
-        padding-right: 15px;
-    }
-
-    .product1-text,
-    .product2-text,
-    .product3-text {
-
-        font-size: 40px;
-        text-align: center;
-        padding: 0;
-        scroll-snap-align: center;
-        padding-bottom: 20px;
-    }
-
-    .product-button-text {
-        width: 120px;
-        height: 16px;
-    }
-
-    .product-button {
-        width: 179px;
-        height: 46px;
-        display: flex;
-        /* flex-direction: column; */
-        background-color: #E2E7F3;
-    }
-
-    .price-text {
-        padding: 0;
-        text-align: center;
-    }
-
-    .button-view-all {
-
-        background-color: transparent;
-        text-decoration: underline;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-    }
-
-    /* banner 2  */
-
-    .main-images {
-        width: 100%;
-        height: auto;
-    }
-
-
-    .img-btn-banner-text-div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .banner-text-btn-div {
-        margin: 0;
-        padding: 10px;
-    }
-
-    .img-banner2 {
-        width: 90%;
-        display: flex;
-        align-items: center;
-    }
-
-    .banner-text2,
-    .banner-text3 {
-        font-size: 43px;
-        margin-top: 50px;
-    }
-
-    .para {
-        text-align: start;
-    }
-
-    .btn-banner2 {
-        margin-left: 20px;
-    }
-
-    /* section3 */
-
-    .img-text-icon-div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .banner2-text {
-        font-size: 16px;
-        width: 85%;
-        background-size: contain;
-    }
-
-    .img-text-icon {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-        background-repeat: no-repeat;
-        /* min-width: 19%; */
-        /* min-height: 400px; */
-        gap: 2px;
-        height: 136px;
-        background-size: 277px;
-        background-position: center;
-    }
-
-    .img-icon {
-        width: 50px;
-    }
-
-    .text-icon1 {
-        font-size: 16px;
-    }
-
-    .text-icon2 {
-        font-size: 40px;
-    }
-
-    .text-heading-top {
-        font-size: 35px;
-    }
-
-
-    /* icon section2 */
-
-    .img-text-icon2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-        background-repeat: no-repeat;
-        /* min-width: 19%; */
-        /* min-height: 400px; */
-        gap: 2px;
-        height: 136px;
-        background-size: 277px;
-        background-position: center;
-    }
-
-    .img-icon {
-        width: 50px;
-    }
-
-    .text-icon3 {
-        font-size: 16px;
-    }
-
-    .text-icon4 {
-        font-size: 40px;
-    }
-
-    /* icon section3 */
-
-
-    .img-text-icon3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-        background-repeat: no-repeat;
-        /* min-width: 19%; */
-        /* min-height: 400px; */
-        gap: 2px;
-        height: 136px;
-        background-size: 277px;
-        background-position: center;
-    }
-
-    .img-icon {
-        width: 50px;
-    }
-
-    .text-icon5 {
-        font-size: 16px;
-    }
-
-    .text-icon6 {
-        font-size: 34px;
-    }
-
-
-    /* text img section3 setting */
-
-    .para-banner {
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .banner3-text {
-        font-size: 25px;
-        /* padding: 10px; */
-        padding-left: 20px;
-    }
-
-    .banner3-text-span {
-        font-size: 24px;
-    }
-
-    .img-banner-background {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .banner-img-text3 {
-        width: 322px;
-    }
-
-    .text-banner-img-button {
-        margin-left: 50px;
-    }
-
-    .icon-img-text {
-        padding: 0;
-        margin-left: 10px;
-    }
-
-    .icon-img-heading {
-        font-size: 28px;
-    }
-
-    /* section 4 */
-
-    .main-banner-icon-text {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .icon-text-banner {
-        max-width: 95%;
-        padding-left: 9px;
-        margin-top: 20px;
-    }
-
-    .heading3 {
-
-        font-size: 43px;
-        margin-bottom: 22px;
-    }
-
-    .icon-img-heading {
-        font-size: 35px;
-    }
-
-    .icon-img-heading-color {
-        font-size: 35px;
-    }
-
-    .icon-img-para {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 48px;
-        padding: 10px;
-    }
-
-    .icon-img-heading {
-
-        font-size: 33px;
-        margin-top: 7px;
-    }
-
-    .icon-img-tex-heading{
-        padding-left: 12px;
-    }
-
-}
-
-    @media only screen and (min-width: 375px) and (max-width: 425px) {
-        .image {
-            width: 100%;
-            height: 600px;
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .Heading,
-        .button2 {
-            display: none;
-        }
-
-        .logo {
-            padding: 0;
-
-        }
-
-        .fa-bag-shopping {
-            padding: 0;
-        }
-
-        .main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 70px;
-            padding: 20px;
-        }
-
-        .logo {
-            font-size: 30px;
-        }
-
-
-        .fa-bars {
-            display: block;
-
-        }
-
-        .banner-text {
-            font-size: 45px;
-        }
-
-        .para {
-            font-size: 15px;
-
-        }
-
-        .button-div {
-            display: flex;
-            justify-content: center;
-            padding: 0;
-        }
-
-        .button1 {
-            width: 180px;
-            height: 50px;
-        }
-
-
-
-        .banner {
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 322px;
-        }
-
-        .para {
-            text-align: center;
-        }
-
-        .icon-text {
-            font-size: 12px;
-            font-family: sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-
-        }
-
-        .icon-img-1 {
-            width: 124px;
-        }
-
-        .icon-text2 {
-            display: flex;
-            gap: 37px;
-            padding: 0;
-        }
-
-        span {
-            font-size: 17px;
-        }
-
-        .products-heading {
-            font-size: 40px;
-            font-family: serif;
-            margin-top: 20px;
-        }
-
-        .products-div {
-            display: flex;
-            justify-content: space-between;
-            /* flex-wrap: nowrap; */
-            gap: 20px;
-            padding: 0;
-
-        }
-
-        .products-image {
-            width: 300px;
-            /* height: auto; */
-        }
-
-        .price-button-div {
-            display: flex;
-            /* flex-direction: column; */
-            align-items: center;
-            gap: 35px;
-        }
-
-        .product1,
-        .product2,
-        .product3 {
-            padding: 0;
-        }
-
-        .product1-text,
-        .product2-text,
-        .product3-text {
-            font-size: 45px;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 20px;
-        }
-
-        .product-button-text {
-            width: 120px;
-            height: 16px;
-        }
-
-        .product-button {
-            width: 189px;
-            height: 46px;
-            display: flex;
-            /* flex-direction: column; */
-            background-color: #E2E7F3;
-        }
-
-        .price-text {
-            padding: 0;
-            text-align: center;
-        }
-
-        .button-view-all {
-
-            background-color: transparent;
-            text-decoration: underline;
-            border: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0;
-        }
-
-        /* banner 2  */
-
-        .img-btn-banner-text-div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .banner-text-btn-div {
-            margin: 0;
-            padding: 10px;
-        }
-
-        .img-banner2 {
-            width: 90%;
-            display: flex;
-            align-items: center;
-        }
-
-        .banner-text2,
-        .banner-text3 {
-            font-size: 51px;
-            margin-top: 50px;
-
-        }
-
-        /* .banner-text3 {
-        font-size: 40px;
-        display: flex;
-        flex-direction: column;
-        background-size: contain;
-        width: 76%;
-        height: auto;
-    } */
-
-        .para {
-            text-align: start;
-            font-size: 20px;
-        }
-
-        .btn-banner2 {
-            margin-left: 30px;
-        }
-
-        /* section3 */
-
-        .img-text-icon-div {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .banner2-text {
-            font-size: 16px;
-            width: 85%;
-            background-size: contain;
-        }
-
-        .img-text-icon {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            gap: 2px;
-            height: 136px;
-            background-size: 277px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon1 {
-            font-size: 16px;
-        }
-
-        .text-icon2 {
-            font-size: 40px;
-        }
-
-        .text-heading-top {
-            font-size: 35px;
-        }
-
-
-        /* icon section2 */
-
-        .img-text-icon2 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            gap: 2px;
-            height: 136px;
-            background-size: 277px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon3 {
-            font-size: 16px;
-        }
-
-        .text-icon4 {
-            font-size: 40px;
-        }
-
-        /* icon section3 */
-
-
-        .img-text-icon3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            gap: 2px;
-            height: 136px;
-            background-size: 277px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon5 {
-            font-size: 16px;
-        }
-
-        .text-icon6 {
-            font-size: 34px;
-        }
-
-
-        /* text img section3 setting */
-
-        .para-banner {
-            font-size: 18px;
-            text-align: center;
-            padding-top: 40px;
-        }
-
-        .banner2-text-set-div {
-            padding-top: 90px;
-        }
-
-        .banner3-text {
-            font-size: 28px;
-            /* padding: 10px; */
-            padding-left: 20px;
-        }
-
-        .banner3-text-span {
-            font-size: 33px;
-        }
-
-        .img-banner-background {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        .banner-img-text3 {
-            width: 389px;
-        }
-
-        .text-banner-img-button {
-            margin-left: 50px;
-        }
-
-
-        /* section 4 */
-
-        .main-banner-icon-text {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .icon-text-banner {
-            max-width: 95%;
-            padding-left: 9px;
-            margin-top: 20px;
-        }
-
-        .heading3 {
-
-            font-size: 43px;
-            margin-bottom: 22px;
-        }
-
-        .icon-img-heading {
-            font-size: 35px;
-        }
-
-        .icon-img-heading-color {
-            font-size: 35px;
-        }
-
-        .icon-img-para {
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-left: 48px;
-            padding: 10px;
-        }
-
-        .icon-img-heading {
-
-            font-size: 33px;
-            margin-top: 7px;
-        }
-
-    }
-
-    @media only screen and (min-width: 425px) and (max-width: 768px) {
-        .image {
-            width: 100%;
-            height: 600px;
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .Heading,
-        .button2 {
-            display: none;
-        }
-
-        .logo {
-            padding: 0;
-
-        }
-
-        .fa-bag-shopping {
-            padding: 0;
-        }
-
-        .main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 70px;
-            padding: 20px;
-        }
-
-        .logo {
-            font-size: 30px;
-        }
-
-
-        .fa-bars {
-            display: block;
-
-        }
-
-        .banner-text {
-            font-size: 45px;
-        }
-
-        .para {
-            font-size: 15px;
-
-        }
-
-        .button-div {
-            display: flex;
-            justify-content: center;
-            padding: 0;
-        }
-
-        .button1 {
-            width: 180px;
-            height: 50px;
-        }
-
-
-
-        .banner {
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 322px;
-        }
-
-        .para {
-            text-align: center;
-        }
-
-        .icon-text {
-            font-size: 12px;
-            font-family: sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-
-        }
-
-        .icon-img-1 {
-            width: 124px;
-        }
-
-        .icon-text2 {
-            display: flex;
-            gap: 37px;
-            padding: 0;
-        }
-
-        span {
-            font-size: 17px;
-        }
-
-        .products-heading {
-            font-size: 40px;
-            font-family: serif;
-            margin-top: 20px;
-        }
-
-        .products-div {
-            display: flex;
-            /* justify-content: center; */
-            /* flex-wrap: nowrap; */
-            gap: 20px;
-            padding: 0;
-
-        }
-
-        .products-image {
-            width: 350px;
-            height: auto;
-        }
-
-        .price-button-div {
-            display: flex;
-            /* flex-direction: column; */
-            align-items: center;
-            gap: 27px;
-        }
-
-        .product1,
-        .product2,
-        .product3 {
-            padding: 0;
-        }
-
-        .product1-text,
-        .product2-text,
-        .product3-text {
-            font-size: 40px;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 20px;
-        }
-
-        .product-button-text {
-            width: 120px;
-            height: 16px;
-        }
-
-        .product-button {
-            width: 169px;
-            height: 46px;
-            display: flex;
-            /* flex-direction: column; */
-            background-color: #E2E7F3;
-            padding: 0;
-        }
-
-        .price-text {
-            padding: 0;
-            text-align: center;
-        }
-
-        .button-view-all {
-
-            background-color: transparent;
-            /* text-decoration: underline; */
-            /* border: none; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0;
-        }
-
-        /* banner 2  */
-
-        .img-btn-banner-text-div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .banner-text-btn-div {
-            margin: 0;
-            padding: 10px;
-        }
-
-        .img-banner2 {
-            width: 90%;
-            display: flex;
-            align-items: center;
-        }
-
-        .banner-text2 {
-            margin-top: 50px;
-            font-size: 45px;
-        }
-
-        .banner-text3 {
-            display: flex;
-            flex-direction: column;
-            font-size: 45px;
-            width: 70%;
-        }
-
-        .para {
-            text-align: start;
-            font-size: 20px;
-        }
-
-        .btn-banner2 {
-            margin-left: 60px;
-        }
-
-        /* section3 */
-
-        .img-text-icon-div {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .banner2-text {
-            font-size: 16px;
-            width: 79%;
-            background-size: contain;
-        }
-
-        .img-text-icon {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            /* gap: 2px; */
-            height: 136px;
-            background-size: 565px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon1 {
-            font-size: 18px;
-        }
-
-        .text-icon2 {
-            font-size: 39px;
-        }
-
-        .text-heading-top {
-            font-size: 43px;
-        }
-
-
-        /* icon section2 */
-
-        .img-text-icon2 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            gap: 2px;
-            height: 136px;
-            background-size: 565px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon3 {
-            font-size: 18px;
-        }
-
-        .text-icon4 {
-            font-size: 39px;
-        }
-
-        /* icon section3 */
-
-
-        .img-text-icon3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            gap: 2px;
-            height: 136px;
-            background-size: 565px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon5 {
-            font-size: 18px;
-        }
-
-        .text-icon6 {
-            font-size: 35px;
-        }
-
-
-        /* text img section3 setting */
-
-
-
-        .para-banner {
-            font-size: 17px;
-            text-align: center;
-            padding-top: 40px;
-        }
-
-        .banner2-text-set-div {
-            padding-top: 140px;
-        }
-
-        .banner3-text {
-            font-size: 33px;
-            /* padding: 10px; */
-            padding-left: 20px;
-        }
-
-        .banner3-text-span {
-            font-size: 33px;
-        }
-
-        .img-banner-background {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        .banner-img-text3 {
-            width: 450px;
-        }
-
-        .text-banner-img-button {
-            margin-left: 17px;
-        }
-
-
-        /* section 4 */
-
-    .main-banner-icon-text {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .icon-text-banner {
-        max-width: 95%;
-        padding-left: 9px;
-        margin-top: 20px;
-    }
-
-    .heading3 {
-
-        font-size: 43px;
-        margin-bottom: 22px;
-    }
-
-    .icon-img-heading {
-        font-size: 35px;
-    }
-
-    .icon-img-heading-color {
-        font-size: 35px;
-    }
-
-    .icon-img-para {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 48px;
-        padding: 10px;
-    }
-
-    .icon-img-heading{
-
-        font-size: 33px;
-        margin-top: 7px;
-    }
-    }
-
-    @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        .image {
-            width: 100%;
-            height: 600px;
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .Heading,
-        .button2 {
-            display: none;
-        }
-
-        .logo {
-            padding: 0;
-
-        }
-
-        .fa-bag-shopping {
-            padding: 0;
-        }
-
-        .main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 70px;
-            padding: 20px;
-        }
-
-        .logo {
-            font-size: 30px;
-        }
-
-
-        .fa-bars {
-            display: block;
-
-        }
-
-        .banner-text {
-            font-size: 65px;
-        }
-
-        .para {
-            font-size: 20px;
-
-        }
-
-        .button-div {
-            display: flex;
-            justify-content: center;
-            padding: 0;
-        }
-
-        .button1 {
-            width: 180px;
-            height: 50px;
-        }
-
-
-
-        .banner {
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 322px;
-
-        }
-
-        .para {
-            text-align: center;
-        }
-
-        .icon-text {
-            font-size: 12px;
-            font-family: sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-
-        }
-
-        .icon-img-1 {
-            width: 140px;
-        }
-
-        .icon-text2 {
-            display: flex;
-            gap: 148px;
-            flex-wrap: wrap;
-            padding: 0;
-        }
-
-        span {
-            font-size: 17px;
-        }
-
-        .products-heading {
-            font-size: 40px;
-            font-family: serif;
-            margin-top: 20px;
-        }
-
-        .products-div {
-            display: flex;
-            /* justify-content: center; */
-            /* flex-wrap: nowrap; */
-            gap: 20px;
-            padding: 0;
-
-        }
-
-        .products-image {
-            width: 350px;
-            height: auto;
-        }
-
-        .price-button-div {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 23px;
-        }
-
-        .product1,
-        .product2,
-        .product3 {
-            padding: 0;
-        }
-
-        .product1-text,
-        .product2-text,
-        .product3-text {
-            font-size: 40px;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 20px;
-        }
-
-        .product-button-text {
-            width: 120px;
-            height: 16px;
-        }
-
-        .product-button {
-            width: 169px;
-            height: 46px;
-            display: flex;
-            /* flex-direction: column; */
-            background-color: #E2E7F3;
-            padding: 0;
-        }
-
-        .price-text {
-            padding: 0;
-            text-align: center;
-        }
-
-        .button-view-all {
-
-            background-color: transparent;
-            /* text-decoration: underline;
-        border: none; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0;
-        }
-
-        /* banner 2  */
-
-        /* banner 2  */
-
-        .main-images {
-            width: 100%;
-            height: auto;
-        }
-
-        .banner-main2 {
-            padding: 0;
-        }
-
-
-        .img-btn-banner-text-div {
-            display: flex;
-            flex-direction: row;
-            padding: 10px;
-
-        }
-
-        .banner-text-btn-div {
-            margin: 0;
-            padding: 10px;
-        }
-
-        .img-banner2 {
-            width: 50%;
-            display: flex;
-            align-items: center;
-        }
-
-        .banner-text2 {
-            font-size: 45px;
-            font-family: serif;
-            margin-top: 50px;
-        }
-
-
-        .banner-text3 {
-            font-size: 46px;
-            font-family: serif;
-            width: 291px;
-        }
-
-        .para {
-            text-align: start;
-            font-size: 17px;
-
-        }
-
-        .btn-banner2 {
-            margin: 0;
-            width: 170px;
-            height: 49px;
-            cursor: pointer;
-
-        }
-
-        /* section3 */
-
-        .img-text-icon-div {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .banner2-text {
-            font-size: 16px;
-            width: 48%;
-            background-size: contain;
-        }
-
-        .img-text-icon {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            /* gap: 2px; */
-            height: 136px;
-            background-size: 565px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon1 {
-            font-size: 19px;
-        }
-
-        .text-icon2 {
-            font-size: 40px;
-        }
-
-        .text-heading-top {
-            font-size: 43px;
-        }
-
-
-        /* icon section2 */
-
-        .img-text-icon2 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            gap: 2px;
-            height: 136px;
-            background-size: 565px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon3 {
-            font-size: 19px;
-        }
-
-        .text-icon4 {
-            font-size: 40px;
-        }
-
-        /* icon section3 */
-
-
-        .img-text-icon3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            /* min-width: 19%; */
-            /* min-height: 400px; */
-            gap: 2px;
-            height: 136px;
-            background-size: 565px;
-            background-position: center;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon5 {
-            font-size: 18px;
-        }
-
-        .text-icon6 {
-            font-size: 35px;
-        }
-
-
-        /* text img section3 setting */
-
-
-
-        .para-banner {
-            font-size: 17px;
-            text-align: center;
-            padding-top: 40px;
-        }
-
-        .banner2-text-set-div {
-            padding-top: 140px;
-        }
-
-        .banner3-text {
-            font-size: 33px;
-            /* padding: 10px; */
-            padding-left: 20px;
-        }
-
-        .banner3-text-span {
-            font-size: 33px;
-        }
-
-        .img-banner-background {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        .banner-img-text3 {
-            width: 810px;
-        }
-
-        .text-banner-img-button {
-            margin-left: 17px;
-        }
-
-    }
-
-    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-        .image {
-            width: 100%;
-            height: 600px;
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .Heading,
-        .button2 {
-            display: block;
-        }
-
-        .Heading {
-            font-size: 15px;
-            display: flex;
-        }
-
-        .text1,
-        .text2,
-        .text3,
-        .text4,
-        .text5,
-        .text6 {
-            /* font-size: 15px; */
-        }
-
-        .logo {
-            padding: 0;
-
-        }
-
-        .fa-bag-shopping {
-            padding: 0;
-        }
-
-        .main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 70px;
-            padding: 20px;
-        }
-
-        .logo {
-            font-size: 30px;
-        }
-
-
-        .fa-bars {
-            display: none;
-
-        }
-
-        .banner-text {
-            font-size: 65px;
-        }
-
-        .para {
-            font-size: 20px;
-
-        }
-
-        .button-div {
-            display: flex;
-            justify-content: start;
-            /* padding: 0; */
-            padding-left: 40px;
-        }
-
-        .button1 {
-            width: 180px;
-            height: 50px;
-        }
-
-        .button2 {
-            width: 117px;
-            height: 50px;
-        }
-
-
-
-        .banner {
-            /* padding: 0; */
-            padding-left: 40px;
-            display: flex;
-            justify-content: start;
-            align-items: start;
-            min-height: 284px;
-        }
-
-        .para {
-            text-align: start;
-        }
-
-        .icon-text {
-            font-size: 12px;
-            font-family: sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-
-        }
-
-        .icon-img-1 {
-            width: 99px;
-        }
-
-        .icon-text2 {
-            display: flex;
-            gap: 148px;
-            flex-wrap: wrap;
-            padding: 0;
-        }
-
-        span {
-            font-size: 17px;
-        }
-
-        .products-heading {
-            font-size: 40px;
-            font-family: serif;
-            margin-top: 20px;
-        }
-
-        .products-div {
-            display: flex;
-            /* justify-content: center; */
-            flex-wrap: nowrap;
-            gap: 20px;
-            padding: 0;
-
-        }
-
-        .products-image {
-            width: 310px;
-            height: auto;
-        }
-
-        .price-button-div {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .product1,
-        .product2,
-        .product3 {
-            padding: 0;
-        }
-
-        .product1-text,
-        .product2-text,
-        .product3-text {
-            font-size: 40px;
-            text-align: center;
-            padding: 0;
-            padding-bottom: 20px;
-        }
-
-        .product-button-text {
-            width: 104px;
-            height: 16px;
-        }
-
-        .product-button {
-            width: 169px;
-            height: 46px;
-            display: flex;
-            /* flex-direction: column; */
-            background-color: #E2E7F3;
-            padding: 0;
-        }
-
-        .price-text {
-            padding-left: 18px;
-            /* text-align: center; */
-        }
-
-        .button-view-all {
-
-            font-size: 20px;
-            /* background-color: transparent;
-        text-decoration: none; */
-            border: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0;
-            border: 1px solid black;
-        }
-
-
-        /* banner 2  */
-
-        /* banner 2  */
-
-        .main-images {
-            width: 100%;
-            height: auto;
-        }
-
-
-        .img-btn-banner-text-div {
-            display: flex;
-            flex-direction: row;
-
-        }
-
-        .banner-text-btn-div {
-            margin: 0;
-            padding: 10px;
-        }
-
-        .img-banner2 {
-            width: 50%;
-            height: auto;
-            display: flex;
-            align-items: center;
-            margin-top: 50px;
-        }
-
-        .banner-text2 {
-            font-size: 56px;
-            font-family: serif;
-            margin-top: 50px;
-            display: flex;
-            flex-direction: column;
-        }
-
-
-        .banner-text3 {
-            font-size: 56px;
-            font-family: serif;
-            width: 353px;
-        }
-
-        .para {
-            text-align: start;
-            font-size: 18px;
-
-        }
-
-        .btn-banner2 {
-            margin: 0;
-            width: 200px;
-            height: 61px;
-            cursor: pointer;
-
-        }
-
-        /* section3 */
-
-        .img-text-icon-div {
-            display: flex;
-            flex-direction: row-reverse;
-        }
-
-        .banner2-text {
-            font-size: 16px;
-            width: 35%;
-            background-size: contain;
-        }
-
-        .img-text-icon {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            height: 180px;
-            background-size: 191px;
-
-        }
-
-        .img-icon {
-            width: 70px;
-        }
-
-        .text-icon1 {
-            font-size: 19px;
-        }
-
-        .text-icon2 {
-            font-size: 40px;
-        }
-
-        .text-heading-top {
-            font-size: 43px;
-        }
-
-
-        /* icon section2 */
-
-        .img-text-icon2 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            height: 180px;
-            background-size: 191px;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon3 {
-            font-size: 19px;
-        }
-
-        .text-icon4 {
-            font-size: 40px;
-        }
-
-        /* icon section3 */
-
-
-        .img-text-icon3 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: url("https://pawfy.com/cdn/shop/files/did-you-know-bg-1.svg?v=1691656755");
-            background-repeat: no-repeat;
-            height: 180px;
-            background-size: 191px;
-        }
-
-        .img-icon {
-            width: 50px;
-        }
-
-        .text-icon5 {
-            font-size: 18px;
-        }
-
-        .text-icon6 {
-            font-size: 35px;
-        }
-
-
-        /* text img section3 setting */
-
-
-
-        .para-banner {
-            font-size: 17px;
-            text-align: center;
-            padding-top: 40px;
-        }
-
-        .banner2-text-set-div {
-            padding-top: 140px;
-        }
-
-        .banner3-text {
-            font-size: 33px;
-            /* padding: 10px; */
-            padding-left: 20px;
-        }
-
-        .banner3-text-span {
-            font-size: 33px;
-        }
-
-        .img-banner-background {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-
-        .banner-img-text3 {
-            width: 810px;
-        }
-
-        .text-banner-img-button {
-            margin-left: 17px;
-        }
-
-
-    }
-
-    /* @media only screen and (min-width: 1440px) {
-
-    .image {
-        width: 100%;
-        height: 600px;
-        background-position: center;
-        background-size: cover;
-    }
-
-
-    .Heading,
-    .button2 {
-        display: block;
-    }
-
-    .Heading{
-        font-size: 19px;
-        display: flex;
-    }
-    .text1, .text2, .text3, .text4, .text5, .text6 {
-       
-    }
-
-    .logo {
-        padding: 0;
-
-    }
-
-    .fa-bag-shopping {
-        padding: 0;
-    }
-
-    .main {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 70px;
-        padding: 20px;
-    }
-
-    .logo {
-        font-size: 30px;
-    }
-
-
-    .fa-bars {
-        display: none;
-
-    }
-
-    .banner-text {
-        font-size: 65px;
-    }
-
-    .para {
-        font-size: 20px;
-
-    }
-
-    .button-div {
-        display: flex;
-        justify-content: start;
-        padding-left: 40px;
-    }
-
-    .button1{
-        width: 180px;
-        height: 50px;
-    }
-
-    .button2{
-        width: 117px;
-        height: 50px;
-    }
-
-
-
-    .banner {
-        padding-left: 40px;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-        min-height: 284px;
-    }
-
-    .para {
-        text-align: start;
-    }
-
-    .icon-text {
-        font-size: 12px;
-        font-family: sans-serif;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-
-    }
-
-    .icon-img-1 {
-        width: 99px;
-    }
-
-    .icon-text2 {
-        display: flex;
-        gap: 148px;
-        flex-wrap: wrap;
-        padding: 0;
-    }
-
-    span{
-        font-size: 17px;
-    }
-
-    .products-heading {
-        font-size: 40px;
-        font-family: serif;
-        margin-top: 20px;
-    }
-
-    .products-div {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 20px;
-        padding: 0;
-
-    }
-
-    .products-image {
-        width: 331px;
-        height: auto;
-    }
-
-    .price-button-div {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 15px;
-    }
-
-    .product1, .product2, .product3 {
-        padding: 0;
-    }
-
-    .product1-text,
-    .product2-text,
-    .product3-text {
-        font-size: 49px;
-        text-align: center;
-        padding: 0;
-        padding-bottom: 20px;
-    }
-
-    .product-button-text {
-        width: 104px;
-        height: 16px;
-        font-size: 14px;
-    }
-
-    .product-button {
-        width: 184px;
-        height: 53px;
-        display: flex;
-        background-color: #E2E7F3;
-        padding: 0;
-    }
-
-    .price-text {
-        padding-left: 18px;
-    }
-
-    .button-view-all {
-
-        font-size: 20px;
-        border: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        border: 1px solid black;
-    }
-
-}
+</html>
